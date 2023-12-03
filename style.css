@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: #fff;
+}
+.ugmonk-header{
+width: 1440px;
+height: 60px;
+display: flex;
+flex-direction: row;
+margin-top: 23px;
+margin-bottom: 77px;
+}
+.ugmonk-title{
+padding-left: 46px;
+padding-top: 23px;
+padding-right: 26px;
+height: 24px;
+flex-shrink: 0;
+color: rgba(26, 26, 26, 0.71);
+text-align: right;
+font-family: Roboto;
+font-size: 37px;
+font-weight: 400;
+line-height: 21px; 
+}
+.ugmonk-icon-1{
+width: 24px;
+height: 38px;
+flex-shrink: 0;
+background-image: url(img/icons/Frame.jpg);
+margin-top: 16px;
+}
+.ugmonk-contact{
+width: 33px;
+flex-shrink: 0;
+color: #2A2A2A;
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 20.4px; 
+margin-right: 32px;
+}
+.ugmonk-contacts{
+display: flex;
+flex-direction: row;
+margin-left: 154px;
+padding-top: 18px;
+}
+.ugmonk-photo{
+background: url(img/Rectangle.jpg), lightgray 50% / cover no-repeat;
+width: 1440px;
+height: 600px;
+flex-shrink: 0;
+}
+.ugmonk-search{
+width: 320px;
+height: 81px;
+flex-shrink: 0;
+background: grey;
+}
+.hugmonk-search-text1{
+padding-top: 6px;
+padding-right: 13px;
+width: 49px;
+color: #2A2A2A;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px; 
+border-right: 1px solid black;
+}
+.hugmonk-search-text2{
+padding-top: 6px;
+padding-right: 30px;
+padding-left: 13px;
+width: 47px;
+color: #2A2A2A;
+font-family: Roboto;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px; 
+}
+.hugmonk-search-text3{
+padding-top: 6px;
+padding-right: 13px;
+width: 37px;
+color: #2A2A2A;
+font-family: Roboto;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px; 
+border-right: 1px solid black;
+}
+.hugmonk-search{
+width: 253px;
+height: 28px;
+flex-shrink: 0;
+display: flex;
+flex-direction: row;
+margin-left: 351px;
+}
+.hugmonk-search-icon{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.hugmonk-block2{
+width: 320px;
+height: 63px;
+flex-shrink: 0;
+background: #FFF;
+box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.20);
+margin-left: 304px;
+}
+.hugmonk-block1{
+display: flex;
+flex-direction: column;
+height: 91px;
+width: 320px;
+}
+.hugmonk-block3{
+width: 300px;
+height: 43px;
+flex-shrink: 0;
+border: 1px solid #DDD;
+background: #FFF;
+margin-top: 10px;
+margin-left: 10px;
+}
