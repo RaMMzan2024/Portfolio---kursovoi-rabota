@@ -2,7 +2,12 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    color: #fff;
+    /* color: #fff; */
+}
+
+.container {
+    max-width: 1160px;
+    margin: 0 auto;
 }
 .ugmonk-header{
 width: 1440px;
@@ -49,7 +54,7 @@ margin-left: 154px;
 padding-top: 18px;
 }
 .ugmonk-photo{
-background: url(img/Rectangle.jpg), lightgray 50% / cover no-repeat;
+background: url(img/ugmonk_photo.jpg), lightgray 50% / cover no-repeat;
 width: 1440px;
 height: 600px;
 flex-shrink: 0;
@@ -174,6 +179,47 @@ transition: 0.3s;
 }
 .collection_header_txt:hover::after{
     width: 100%;
+}
+.collections{
+    width: 1180px;
+    height: 2391px;
+    margin-left: 130px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.collection_block{
+    width: 275px;
+    height: 405px;
+    margin-right: 20px;
+}
+.collection_block_row{
+    display: flex;
+    flex-direction: row;
+}
+.collection_block_title{
+color: #1A1A1A;
+font-family: Roboto;
+font-size: 15px;
+font-weight: 400;
+line-height: 18px; 
+padding-top: 11px;
+}
+.collection_block_style{
+color: #A8A8A8;
+font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 18px; 
+padding-top: 11px;
+padding-left: 3px;
+}
+.collection_block_price1{
+color: #808080;
+font-family: Roboto;
+font-size: 13px;
+font-weight: 400;
+line-height: 13px; 
+padding-top: 6px;
 }
 
 
