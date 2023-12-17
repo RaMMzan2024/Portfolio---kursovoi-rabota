@@ -238,3 +238,19 @@ margin-bottom: 172px;
 }
 
 
+/* Analog */
+.analog{
+margin-top: 172px;
+width: 1440px;
+height: 600px;
+flex-shrink: 0;
+background: url(img/Analog-img.jpg);
+}
+.analog_block{
+width: 1160px;
+height: 204px;
+flex-shrink: 0;
+background: grey;
+margin-left: 140px;
+margin-top: 198px;
+}
