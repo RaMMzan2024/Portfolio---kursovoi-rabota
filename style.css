@@ -239,18 +239,136 @@ margin-bottom: 172px;
 
 
 /* Analog */
-.analog{
-margin-top: 172px;
+.Analog{
+    width: 1440px;
+    height: 600px;
+    flex-shrink: 0;
+    margin-top: 172px;
+}
+.analog-img{
+background: url(img/Analog-img.jpg);
 width: 1440px;
 height: 600px;
-flex-shrink: 0;
-background: url(img/Analog-img.jpg);
 }
-.analog_block{
+.analog-block{
 width: 1160px;
 height: 204px;
 flex-shrink: 0;
-background: grey;
 margin-left: 140px;
-margin-top: 198px;
+margin-top: 69px;
 }
+.analog-title{
+color: #F7F7F7;
+font-family: Roboto;
+font-size: 35px;
+font-style: normal;
+font-weight: 400;
+line-height: 54px; 
+width: 360px;
+height: 108px;
+margin-bottom: 13px;
+}
+.analog-button{
+width: 182px;
+height: 40px;
+flex-shrink: 0;
+border: 1px solid #7E6E45;
+background: #7E6E45;
+color: #F7F7F7;
+text-align: center;
+font-family: Roboto;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px; 
+margin-bottom: 17px;
+}
+.analog-block:hover{
+color: black;
+
+}
+.analog-text{
+color: #F7F7F7;
+font-family: Roboto;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 22.5px; 
+}
+.analog-block-2{
+width: 100px;
+height: 100px;
+flex-shrink: 0;
+border-radius: 50px;
+background: #7E6E45;  
+margin-left: 1268px;
+}
+.analog-block-2-text{
+padding-top: 20px;
+color: #EAE7D9;
+text-align: center;
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 21px; 
+}
+/* Journals */
+.Journals{
+width: 1440px;
+height: 690px;
+flex-shrink: 0;
+background: #312F2E;
+display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.journals_block{
+    height: 406px;
+    width:  1160px;
+    display: flex;
+    flex-direction: row;
+}
+.journals_block_1{
+    width: 406px;
+    height: 436px;
+    flex-shrink: 0;
+    background: #fff;
+}
+.journals_block_title{
+color: #1A1A1A;
+font-family: Roboto;
+font-size: 38px;
+font-style: normal;
+font-weight: 400;
+line-height: 45.6px;
+padding-left: 93px; 
+padding-top: 89.75px;
+}
+.journals_block_text_1{
+color: #1A1A1A;
+font-family: Roboto;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 21px; 
+padding-left: 93px;
+padding-top: 20px;
+}
+.journals_block_text_2{
+color: #1A1A1A;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 21px;
+padding-left: 93px;
+padding-top: 32px;
+}
+.container {
+        max-width: 1290px;
+        width: 100%;
+        min-width: 320px;
+        margin: 0 auto;
+        padding: 0 15px;
+      }
