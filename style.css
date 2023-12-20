@@ -1,8 +1,8 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-}
+} */
 
 .container {
     max-width: 1160px;
@@ -45,6 +45,11 @@ font-size: 16px;
 font-weight: 400;
 line-height: 20.4px; 
 margin-right: 32px;
+}
+.ugmonk-contact:hover{
+font-weight: 600;
+color: black;
+transition-delay: 0s;
 }
 .ugmonk-contacts{
 display: flex;
@@ -236,6 +241,7 @@ line-height: 56px;
 margin-left: 569px;
 margin-bottom: 172px;
 }
+.collection_bl
 
 
 /* Analog */
@@ -285,7 +291,7 @@ margin-bottom: 17px;
 }
 .analog-block:hover{
 color: black;
-
+transition: 2s;
 }
 .analog-text{
 color: #F7F7F7;
@@ -294,6 +300,16 @@ font-size: 15px;
 font-style: normal;
 font-weight: 400;
 line-height: 22.5px; 
+}
+.analog-text::after{
+content: '';
+position: absolute;
+background-color: #1A1A1A;
+width: 0;
+height: 2px;
+left: 0;
+bottom: -10px;
+transition: 0.3s;
 }
 .analog-block-2{
 width: 100px;
@@ -366,9 +382,9 @@ padding-left: 93px;
 padding-top: 32px;
 }
 .container {
-        max-width: 1290px;
-        width: 100%;
-        min-width: 320px;
-        margin: 0 auto;
-        padding: 0 15px;
-      }
+max-width: 1290px;
+width: 100%;
+min-width: 320px;
+margin: 0 auto;
+padding: 0 15px;
+}
