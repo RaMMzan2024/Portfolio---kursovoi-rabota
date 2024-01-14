@@ -3,6 +3,7 @@
     padding: 0;
     font-family: sans-serif;
 } */
+
 .container {
 max-width: 1290px;
 width: 100%;
@@ -191,7 +192,6 @@ transition: 0.3s;
 }
 .collections{
 width: 1180px;
-/* height: 2391px; */
 margin-left: 130px;
 display: flex;
 flex-wrap: wrap;
@@ -239,21 +239,19 @@ height: 56px;
 flex-shrink: 0;
 border: 1px solid #1A1A1A;
 background: #1A1A1A;
+margin-top: 100px;
+margin-left: 500px;
+} 
+.collection_btn_2{
 color: #F7F7F7;
 text-align: center;
 font-family: Roboto;
 font-size: 20px;
-font-style: normal;
 font-weight: 400;
-line-height: 56px; 
-margin-left: 569px;
-margin-top: 100px;
-transition-duration: 1s,3s;
+line-height: 56px;
+text-decoration: none;
 }
-.collection_bth:hover{
-color: #FFF;
-font-weight: 600;
-}
+
 
 /* Analog */
 .Analog{
